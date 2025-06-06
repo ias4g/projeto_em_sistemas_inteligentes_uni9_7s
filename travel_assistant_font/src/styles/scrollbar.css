@@ -1,0 +1,27 @@
+/* Scrollbar customizada para o tema da aplicação */
+
+/* Para navegadores baseados em Webkit (Chrome, Edge, Opera, etc) */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #1a1a1a;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #7B52AB 60%, #22c55e 100%);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #9f6eea 60%, #22c55e 100%);
+}
+
+::-webkit-scrollbar-corner {
+  background: #1a1a1a;
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7B52AB #1a1a1a;
+} 

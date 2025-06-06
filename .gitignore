@@ -1,0 +1,29 @@
+# Backend (travel_assistant_back)
+travel_assistant_back/venv/
+travel_assistant_back/.env
+travel_assistant_back/ENV/
+travel_assistant_back/env/
+travel_assistant_back/*.pyc
+travel_assistant_back/__pycache__/
+travel_assistant_back/*.log
+travel_assistant_back/*.sqlite3
+travel_assistant_back/.vscode/
+travel_assistant_back/.idea/
+travel_assistant_back/htmlcov/
+travel_assistant_back/.coverage
+travel_assistant_back/.tox/
+travel_assistant_back/.pytest_cache/
+travel_assistant_back/pip-log.txt
+
+# Frontend (travel_assistant_front)
+travel_assistant_front/node_modules/
+travel_assistant_front/dist/
+travel_assistant_front/build/
+travel_assistant_front/.env
+travel_assistant_front/.env.local
+travel_assistant_front/.env.development.local
+travel_assistant_front/.env.test.local
+travel_assistant_front/.env.production.local
+travel_assistant_front/npm-debug.log*
+travel_assistant_front/yarn-debug.log*
+travel_assistant_front/yarn-error.log* 

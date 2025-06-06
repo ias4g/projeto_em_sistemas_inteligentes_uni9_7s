@@ -1,0 +1,24 @@
+/* Estilos personalizados para os toasts */
+.toast {
+  background: #1a1a1a !important;
+  color: #fff !important;
+  border: 1px solid #333 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.toast-success {
+  border-left: 4px solid #22c55e !important;
+}
+
+.toast-error {
+  border-left: 4px solid #ef4444 !important;
+}
+
+.toast-icon {
+  color: #fff !important;
+}
+
+.toast-message {
+  color: #fff !important;
+  font-size: 0.875rem !important;
+} 
